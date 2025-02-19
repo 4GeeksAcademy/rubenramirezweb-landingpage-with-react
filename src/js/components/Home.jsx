@@ -15,23 +15,24 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
+				
 				<div className="row justify-content-between">
-					<div className="col-3">
+					<div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
 						<Card />
 					</div>
-					<div className="col-3">
+					<div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
 						<Card />
 					</div>
-					<div className="col-3">
+					<div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
 						<Card />
 					</div>
-					<div className="col-3">
+					<div className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
 						<Card />
 					</div>
 				</div>
 			</div>
 			<Footer />
-		</div>
+		</div >
 
 	);
 };
